@@ -5,8 +5,7 @@
 # LeetCode
 思路方法。代码以C++，Python，Java为主
 
-更新于：2018-09-30
-
+更新于：2018-10-01
 
 
 | 题目                                                         | Difficulty | C++                                                          | Java                                                         | Python                                                       | 备注                       |
@@ -17,6 +16,8 @@
 | [9.   Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | Easy       |                                                              | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/9.%20Palindrome%20Number/Solution.java) |                                                              | 回文数判断                 |
 | [14.   Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Easy       |                                                              | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/14.%20Longest%20Common%20Prefix/Solution.java) |                                                              | 最长公共前缀               |
 | [20. Valid   Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Easy       |                                                              | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/20.%20Valid%20Parentheses/Solution.java) |                                                              | 合法括号匹配               |
+| [27. Remove   Element](https://leetcode.com/problems/remove-element/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/27.%20Remove%20Element/Solution.cpp) |                                                              |                                                              | 删除vector中等于val的值    |
+| [66. Plus One](https://leetcode.com/problems/plus-one/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/66.%20Plus%20One/Solution.cpp) |                                                              |                                                              | vector                     |
 | [83.   Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/83.%20Remove%20Duplicates%20from%20Sorted%20List/Solution.cpp) |                                                              | [Python](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/83.%20Remove%20Duplicates%20from%20Sorted%20List/Solution.py) | 单链表节点删除             |
 | [94.   Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | Medium     | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/94.%20Binary%20Tree%20Inorder%20Traversal/Solution.cpp) | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/94.%20Binary%20Tree%20Inorder%20Traversal/Solution.java) | [Python](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/94.%20Binary%20Tree%20Inorder%20Traversal/Solution.py) | 二叉树中序遍历             |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/100.%20Same%20Tree/Solution.cpp) | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/100.%20Same%20Tree/Solution.java) | [Python](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/100.%20Same%20Tree/Solution.py) | 二叉树是否相等             |
@@ -28,4 +29,5 @@
 | [203.   Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/203.%20Remove%20Linked%20List%20Elements/Solution.cpp) |                                                              |                                                              | 删除链表节点数据域为某值   |
 | [226.   Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/226.%20Invert%20Binary%20Tree/Solution.cpp) |                                                              |                                                              | 二叉树的镜像               |
 |                                                              |            |                                                              |                                                              |                                                              |                            |
-|                                                              |            |                                                              |                                                              |                                                              |                            |
+
+​     
