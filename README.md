@@ -5,7 +5,7 @@
 # LeetCode
 思路方法。代码以C++，Python，Java为主
 
-更新于：2018-10-01
+更新于：2018-10-04
 
 
 | 题目                                                         | Difficulty | C++                                                          | Java                                                         | Python                                                       | 备注                       |
@@ -29,7 +29,8 @@
 | [167.   Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Easy       |                                                              | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted/Solution.java) |                                                              | 查询两数和等于目标值的索引 |
 | [203.   Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/203.%20Remove%20Linked%20List%20Elements/Solution.cpp) |                                                              |                                                              | 删除链表节点数据域为某值   |
 | [205.   Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/205.%20Isomorphic%20Strings/Solution.cpp) |                                                              |                                                              |                            |
+| [231. Power of   Two](https://leetcode.com/problems/power-of-two/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/231.%20Power%20of%20Two/Solution.cpp) |                                                              |                                                              | 2^n判断                    |
+| [268. Missing   Number](https://leetcode.com/problems/missing-number/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/268.%20Missing%20Number/Solution.cpp) |                                                              |                                                              |                            |
 | [226.   Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/226.%20Invert%20Binary%20Tree/Solution.cpp) |                                                              |                                                              | 二叉树的镜像               |
-|                                                              |            |                                                              |                                                              |                                                              |                            |
-|                                                              |            |                                                              |                                                              |                                                              |                            |
+| [342. Power of   Four](https://leetcode.com/problems/power-of-four/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/342.%20Power%20of%20Four/Solution.cpp) |                                                              |                                                              | 4^n判断                    |
 |                                                              |            |                                                              |                                                              |                                                              |                            |
