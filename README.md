@@ -5,7 +5,7 @@
 # LeetCode
 思路方法。代码以C++，Python，Java为主
 
-更新于：2018-10-04
+更新于：2018-10-07
 
 
 | 题目                                                         | Difficulty | C++                                                          | Java                                                         | Python                                                       | 备注                       |
@@ -27,6 +27,8 @@
 | [110.   Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/110.%20Balanced%20Binary%20Tree/Solution.cpp) |                                                              |                                                              | 二叉树是否平衡             |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/112.%20Path%20Sum/Solution.cpp) |                                                              |                                                              | 二叉树路径和               |
 | [167.   Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Easy       |                                                              | [Java](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted/Solution.java) |                                                              | 查询两数和等于目标值的索引 |
+| [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/190.%20Reverse%20Bits/Solution.cpp) |                                                              |                                                              | 反转二进制整数             |
+| [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/191.%20Number%20of%201%20Bits/Solution.cpp) |                                                              |                                                              | 二进制整数1的个数          |
 | [203.   Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/203.%20Remove%20Linked%20List%20Elements/Solution.cpp) |                                                              |                                                              | 删除链表节点数据域为某值   |
 | [205.   Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/205.%20Isomorphic%20Strings/Solution.cpp) |                                                              |                                                              |                            |
 | [231. Power of   Two](https://leetcode.com/problems/power-of-two/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/231.%20Power%20of%20Two/Solution.cpp) |                                                              |                                                              | 2^n判断                    |
@@ -34,3 +36,6 @@
 | [226.   Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/226.%20Invert%20Binary%20Tree/Solution.cpp) |                                                              |                                                              | 二叉树的镜像               |
 | [342. Power of   Four](https://leetcode.com/problems/power-of-four/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/342.%20Power%20of%20Four/Solution.cpp) |                                                              |                                                              | 4^n判断                    |
 |                                                              |            |                                                              |                                                              |                                                              |                            |
+
+
+
