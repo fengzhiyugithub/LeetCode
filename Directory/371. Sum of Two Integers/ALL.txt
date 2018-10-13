@@ -1,0 +1,39 @@
+Calculate the sum of two integers *a* and *b*, but you are **not allowed** to use the operator `+` and `-`.
+
+**Example 1:**
+
+```
+Input: a = 1, b = 2
+Output: 3
+```
+
+**Example 2:**
+
+```
+Input: a = -2, b = 3
+Output: 1
+```
+
+```c++
+class Solution {
+public:
+    int getSum(int a, int b) {
+        return b?getSum(a^b, (a&b)<<1):a;
+    }
+};
+
+class Solution {
+public:
+    int getSum(int a, int b) {
+        int sum=0;
+        while(b){
+            sum=(a^b);///当前位模2求和
+            b=(a&b)<<1;///进位
+            a=sum;
+        }
+        return sum;
+    }
+};
+
+```
+

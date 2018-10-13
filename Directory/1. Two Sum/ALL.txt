@@ -1,0 +1,72 @@
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+
+分析：
+1.朴素解法，双层循环 O(n^2)
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums,int target) {
+        vector<int>ans;
+        for(int i=0; i<nums.size(); i++) {
+            for(int j=i+1; j<nums.size(); j++) {
+                if(nums[i]+nums[j] == target) {
+                    ans.push_back(i);
+                    ans.push_back(j);
+                    return ans;
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+2 使用map的find() O(nlogn)
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums,int target) {
+        map<int, int>mp;
+        for(int i=0; i<nums.size(); i++) {
+            if(mp.find(target-nums[i])==mp.end()) { ///未在map中找到另一个数
+                mp[nums[i]] = i;
+            } else { ///找到满足条件的两个数
+                vector<int>ans = {mp[target-nums[i]], i};
+                return ans;
+            }
+        }
+    }
+};
+
+import java.util.HashMap;
+
+public class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+        int[] res = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            if (hashMap.get(target - nums[i]) == null) {
+                hashMap.put(nums[i], i);
+            } else {
+                res[0] = hashMap.get(target - nums[i]);
+                res[1] = i;
+                break;
+            }
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 2, 7, 11, 15 };
+        int target = 9;
+        int[] res = new Solution().twoSum(nums, target);
+        System.out.println(res[0] + " " + res[1]);
+    }
+}
+
