@@ -1,0 +1,35 @@
+Given an integer, write a function to determine if it is a power of two.
+
+Example 1:
+
+Input: 1
+Output: true 
+Explanation: 20 = 1
+Example 2:
+
+Input: 16
+Output: true
+Explanation: 24 = 16
+Example 3:
+
+Input: 218
+Output: false
+
+题意：判断整数num是否为2^n
+分析：首先判断是否>0；其次如果是2^n，
+2     10
+4     100
+8     1000
+……
+
+1     01
+3     011
+7     0111
+观察上面2^n的数，可以发现 对应的二进制下 num&(num-1)==0 则说明num是2^n
+
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        return n>0 && (n&(n-1))==0;
+    }
+};
