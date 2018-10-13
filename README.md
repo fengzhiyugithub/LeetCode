@@ -5,8 +5,7 @@
 # LeetCode
 思路方法。代码以C++，Python，Java为主
 
-更新于：2018-10-12
-
+更新于：2018-10-13
 
 
 
@@ -38,6 +37,7 @@
 | [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/189.%20Rotate%20Array/Solution.cpp) |                                                              |                                                              | 移动部分数字                                       |
 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/190.%20Reverse%20Bits/Solution.cpp) |                                                              |                                                              | 反转二进制整数                                     |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/191.%20Number%20of%201%20Bits/Solution.cpp) |                                                              |                                                              | 二进制整数1的个数                                  |
+| [198. House Robber](https://leetcode.com/problems/house-robber/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/198.%20House%20Robber/Solution.cpp) |                                                              |                                                              | 非相邻项求和的最大值                               |
 | [203.   Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/203.%20Remove%20Linked%20List%20Elements/Solution.cpp) |                                                              |                                                              | 删除链表节点数据域为某值                           |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/204.%20Count%20Primes/Solution.cpp) |                                                              |                                                              | 素数计数                                           |
 | [205.   Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/205.%20Isomorphic%20Strings/Solution.cpp) |                                                              |                                                              |                                                    |
@@ -50,13 +50,11 @@
 | [231. Power of   Two](https://leetcode.com/problems/power-of-two/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/231.%20Power%20of%20Two/Solution.cpp) |                                                              |                                                              | 2^n判断                                            |
 | [260. Single Number III](https://leetcode.com/problems/single-number-iii/description/) | Medium     | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/260.%20Single%20Number%20III/Solution.cpp) |                                                              |                                                              | 找出两个只出现一次的数                             |
 | [268. Missing   Number](https://leetcode.com/problems/missing-number/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/268.%20Missing%20Number/Solution.cpp) |                                                              |                                                              |                                                    |
+| [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | Medium     | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/279.%20Perfect%20Squares/Solution.cpp) |                                                              |                                                              | 完美平方数                                         |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/283.%20Move%20Zeroes/Solution.cpp) |                                                              |                                                              | 将数组中的0移到最后                                |
 | [342. Power of   Four](https://leetcode.com/problems/power-of-four/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/342.%20Power%20of%20Four/Solution.cpp) |                                                              |                                                              | 4^n判断                                            |
 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/371.%20Sum%20of%20Two%20Integers/Solution.cpp) |                                                              |                                                              | 位运算求和                                         |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/389.%20Find%20the%20Difference/Solution.cpp) |                                                              |                                                              | 找不同的字符                                       |
-
-
-
 
 
 
