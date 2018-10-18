@@ -1,0 +1,77 @@
+Given an unsorted integer array, find the smallest missing positive integer.
+
+**Example 1:**
+
+```
+Input: [1,2,0]
+Output: 3
+```
+
+**Example 2:**
+
+```
+Input: [3,4,-1,1]
+Output: 2
+```
+
+**Example 3:**
+
+```
+Input: [7,8,9,11,12]
+Output: 1
+```
+
+**Note:**
+
+Your algorithm should run in *O*(*n*) time and uses constant extra space.
+
+题意：输出第一个不在数组中的正数。 要求时间复杂度O(n)，空间复杂度O(1)
+
+分析：C++写法思路：如果所有的数都在对应的位置上，即num[i]在nums[i]-1位置上，说明少的是nums.size()-1；否则缺少的是小于nums.size()-1的数，通过交换使[1,nums.size()]内的数有序，然后遍历查找
+
+Python用这种思路写会TLE， 暂时没明白， 在讨论区中看到一种比较好的写法。
+
+```c++
+/*
+* @Author: yufeng
+* @Date:   2018-10-18 23:07:00
+* @Last Modified by:   yufeng
+* @Last Modified time: 2018-10-18 23:09:43
+* @Email: fzhiy270@sina.com
+* @Blog: http://fzhiy.com/
+*/
+class Solution {
+public:
+    int firstMissingPositive(vector<int>& nums) {
+        for (int i=0; i<nums.size(); i++){
+        	while(nums[i]>0&&nums[i]<=nums.size()&&nums[nums[i]-1]!=nums[i]){
+        		///如果nums[i]不在nums[i]-1这个位置上
+        		swap(nums[nums[i]-1], nums[i]);
+        	}
+        }
+        for(int i=0; i<nums.size(); i++){
+        	if(nums[i]!=i+1){
+        		return i+1;
+        	}
+        }
+        return nums.size()+1;
+    }
+};
+```
+
+
+
+```python
+# 如果abs(nums[i])<=L，则置为负数
+class Solution:
+    def firstMissingPositive(self, nums):
+        n = len(nums)
+        for i in range(n):
+            if nums[i] <= 0: nums[i] = len(nums)+1
+        for i in range(n):
+            if abs(nums[i]) <= n: nums[abs(nums[i])-1] = -abs(nums[abs(nums[i])-1])
+        for i in range(n):
+            if nums[i] > 0: return i+1
+        return n+1
+```
+
