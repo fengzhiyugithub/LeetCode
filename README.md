@@ -5,7 +5,7 @@
 # LeetCode
 思路方法。代码以C++，Python，Java为主
 
-更新于：2018-10-18
+更新于：2018-10-20
 
 
 
@@ -58,9 +58,11 @@
 | [268. Missing   Number](https://leetcode.com/problems/missing-number/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/268.%20Missing%20Number/Solution.cpp) |                                                              |                                                              |                                                    |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | Medium     | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/279.%20Perfect%20Squares/Solution.cpp) |                                                              |                                                              | 完美平方数                                         |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/283.%20Move%20Zeroes/Solution.cpp) |                                                              |                                                              | 将数组中的0移到最后                                |
+| [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Medium     | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/338.%20Counting%20Bits/Solution.cpp) |                                                              |                                                              | 计算1的位数                                        |
 | [342. Power of   Four](https://leetcode.com/problems/power-of-four/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/342.%20Power%20of%20Four/Solution.cpp) |                                                              |                                                              | 4^n判断                                            |
 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/371.%20Sum%20of%20Two%20Integers/Solution.cpp) |                                                              |                                                              | 位运算求和                                         |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference/description/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/389.%20Find%20the%20Difference/Solution.cpp) |                                                              |                                                              | 找不同的字符                                       |
+| [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy       | [C++](https://github.com/fengzhiyugithub/LeetCode/blob/master/Directory/405.%20Convert%20a%20Number%20to%20Hexadecimal/Solution.cpp) |                                                              |                                                              | 十进制转换为十六进制                               |
 
 
 
