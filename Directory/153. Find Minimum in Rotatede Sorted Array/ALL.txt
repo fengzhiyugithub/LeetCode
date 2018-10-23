@@ -1,0 +1,75 @@
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+
+(i.e.,  `[0,1,2,4,5,6,7]` might become  `[4,5,6,7,0,1,2]`).
+
+Find the minimum element.
+
+You may assume no duplicate exists in the array.
+
+**Example 1:**
+
+```
+Input: [3,4,5,1,2] 
+Output: 1
+```
+
+**Example 2:**
+
+```
+Input: [4,5,6,7,0,1,2]
+Output: 0
+```
+
+
+
+```c++
+/*
+* @Author: yufeng
+* @Date:   2018-10-23 21:22:46
+* @Last Modified by:   yufeng
+* @Last Modified time: 2018-10-23 21:29:32
+* @Email: fzhiy270@sina.com
+* @Blog: http://fzhiy.com/
+*/
+
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int l = 0, r = nums.size()-1;
+        while (l<r){
+        	int mid=(l+r)>>1;
+        	if(nums[r]<nums[mid]) l=mid+1;
+        	else r=mid;
+        }
+        return nums[l];
+    }
+};
+```
+
+
+
+```python
+# -*- coding: utf-8 -*-
+# @Author: yufeng
+# @Date:   2018-10-23 21:22:46
+# @Last Modified by:   yufeng
+# @Last Modified time: 2018-10-23 21:31:07
+# @Email: fzhiy270@sina.com
+# @Blog: http://fzhiy.com/
+
+class Solution:
+    def findMin(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        l, r = 0, len(nums)-1
+        while l<r:
+        	mid = (l+r)>>1
+        	if nums[mid]>nums[r]:
+        		l=mid+1
+        	else :
+        		r=mid
+        return nums[l]
+```
+
