@@ -1,0 +1,70 @@
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length at that position.
+
+Determine if you are able to reach the last index.
+
+**Example 1:**
+
+```
+Input: [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+```
+
+**Example 2:**
+
+```
+Input: [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum
+             jump length is 0, which makes it impossible to reach the last i
+```
+
+
+
+```c++
+/*
+* @Author: yufeng
+* @Date:   2018-10-24 18:44:56
+* @Last Modified by:   yufeng
+* @Last Modified time: 2018-10-24 18:49:53
+* @Email: fzhiy270@sina.com
+* @Blog: http://fzhiy.com/
+*/
+
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        int i=0,reach=0,n=nums.size();
+        while(i<n&&i<=reach){
+        	reach=max(reach, i+nums[i]);
+        	i++;
+        }
+        return i==n;
+    }
+};
+```
+
+```python
+# -*- coding: utf-8 -*-
+# @Author: yufeng
+# @Date:   2018-10-24 18:44:56
+# @Last Modified by:   yufeng
+# @Last Modified time: 2018-10-24 18:47:51
+# @Email: fzhiy270@sina.com
+# @Blog: http://fzhiy.com/
+
+class Solution:
+    def canJump(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        reach, i, n = 0, 0, len(nums)
+        while i < n and i <= reach:
+        	reach = max(reach, i+nums[i])
+        	i += 1
+        return i==n
+```
+
