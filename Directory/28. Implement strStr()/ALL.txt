@@ -1,0 +1,74 @@
+Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
+
+Return the index of the first occurrence of needle in haystack, or **-1** if needle is not part of haystack.
+
+**Example 1:**
+
+```
+Input: haystack = "hello", needle = "ll"
+Output: 2
+```
+
+**Example 2:**
+
+```
+Input: haystack = "aaaaa", needle = "bba"
+Output: -1
+```
+
+**Clarification:**
+
+What should we return when `needle` is an empty string? This is a great question to ask during an interview.
+
+For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
+
+题意：输出子串在母串第一次出现的位置，不存在则输出-1
+
+分析：可以使用C++的substr()，或者暴力、KMP
+
+```c++
+/*
+* @Author: yufeng
+* @Date:   2018-10-25 17:50:16
+* @Last Modified by:   yufeng
+* @Last Modified time: 2018-10-25 17:53:31
+* @Email: fzhiy270@sina.com
+* @Blog: http://fzhiy.com/
+*/
+
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        int lenH=haystack.length(), lenN=needle.length();
+        if(lenN == 0){
+        	return 0;
+        }
+        for(int i=0; i<=lenH-lenN; i++){
+        	if(haystack.substr(i, lenN) == needle){
+        		return i;
+        	}
+        }
+        return -1;
+    }
+};
+```
+
+```python
+# -*- coding: utf-8 -*-
+# @Author: yufeng
+# @Date:   2018-10-25 17:55:56
+# @Last Modified by:   yufeng
+# @Last Modified time: 2018-10-25 17:57:43
+# @Email: fzhiy270@sina.com
+# @Blog: http://fzhiy.com/
+
+class Solution:
+    def strStr(self, haystack, needle):
+        """
+        :type haystack: str
+        :type needle: str
+        :rtype: int
+        """
+        return haystack.index(needle) if needle in haystack else -1
+```
+
